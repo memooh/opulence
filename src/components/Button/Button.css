@@ -1,0 +1,23 @@
+.opulence-btn {
+    background-color: #CDA274;
+    color: white;
+    font-family: var(--font-sans-jost);
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .opulence-btn:hover {
+    background-color: #c0a070;
+  }
+  
+  .btn-arrow {
+    margin-left: 8px;
+    font-size: 18x;
+  }
