@@ -1,0 +1,30 @@
+:root {
+  --font-serif: "DM Serif Display", serif;
+  --font-sans-jost: "Jost", sans-serif;
+  --font-sans-inter: "Inter", sans-serif;
+
+    --color-title: #292F36;
+    --color-text: #4D5053;
+}
+
+body {
+  font-family: var(--font-sans-jost);
+  font-weight: 400;
+  font-style: normal;
+  color: var(--color-text); /* Apply the text color to the body */
+
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.font-jost {
+  font-family: var(--font-sans-jost);
+}
+
+.font-inter {
+  font-family: var(--font-sans-inter);
+}
+
+
