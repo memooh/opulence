@@ -4,6 +4,7 @@ import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
 import QuickInfo from './components/QuickInfo/QuickInfo'
 import QuickConnectUs from './components/QuickConnectUs/QuickConnectUs'
+import Reviews from './components/Reviews/Reviews'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
     <Hero />
     <QuickInfo />
     <QuickConnectUs />
+    <Reviews />
     </>
   )
 }
