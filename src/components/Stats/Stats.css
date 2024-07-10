@@ -1,0 +1,37 @@
+.counter-item {
+    text-align: center;
+    font-family: var(--font-serif);
+  }
+  
+  .counter-value {
+    color: #CDA274;
+    font-size: 5.3rem;
+  }
+  
+  .counter-description {
+    color: #6c757d; 
+    font-size: 1.37rem;
+  }
+  
+  .line {
+    display: none; 
+  }
+
+  .stats {
+    margin-top: 11.35rem;
+    margin-bottom: 11.35rem;
+  }
+
+  
+  @media (min-width: 992px) {
+    .line {
+      display: block; /* Show lines on desktop */
+      position: absolute;
+      top: 10%;
+      right: 0;
+      height: 100px; /* Adjust the height as needed */
+      width: 1px;
+      background-color: #6c757d; /* Line color */
+    }
+  }
+  

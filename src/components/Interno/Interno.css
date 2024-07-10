@@ -1,0 +1,74 @@
+.interno-container {
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100% !important;
+    position: relative;
+}
+
+
+
+
+@media (min-width: 1440px) {
+    .interno-container {
+        background-image: url('/images/interno.png');
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .interno-text {
+        margin-left: 0 !important;
+        margin-top: -20rem !important;
+    }
+    .interno-title {
+        font-size: 4rem;
+    }
+    .interno-subtitle {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 1439.98px) {
+    .interno-container {
+        background-image: none;
+    }
+    .interno-title {
+        color: var(--color-title);
+    }
+    .interno-subtitle {
+        color: var(--color-text);
+    }
+}
+
+@media (max-width: 1024px) {
+    .interno-title {
+        font-size: 3rem;
+    }
+    .interno-subtitle {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .interno-title {
+        font-size: 2.5rem;
+    }
+    .interno-subtitle {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .interno-text{
+        max-width: 100% !important;
+    }
+    .interno-title {
+        font-size: 2rem;
+    }
+    .interno-subtitle {
+        font-size: 0.9rem;
+    }
+    .interno-subtitle br {
+        display: none;
+    }
+}

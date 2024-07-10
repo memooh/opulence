@@ -6,6 +6,8 @@ import QuickInfo from './components/QuickInfo/QuickInfo'
 import QuickConnectUs from './components/QuickConnectUs/QuickConnectUs'
 import Reviews from './components/Reviews/Reviews'
 import OurProjects from './components/OurProjects/OurProjects'
+import Stats from './components/Stats/Stats'
+import Interno from './components/Interno/Interno'
 
 function App() {
 
@@ -17,6 +19,8 @@ function App() {
     <QuickConnectUs />
     <Reviews />
     <OurProjects />
+    <Stats />
+    <Interno />
     </>
   )
 }
