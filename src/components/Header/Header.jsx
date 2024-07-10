@@ -40,9 +40,6 @@ const Header = () => {
               <a className="nav-link" href="/project">Project</a>
             </li>
             <li className="nav-item px-3">
-              <a className="nav-link" href="/blog">Blog</a>
-            </li>
-            <li className="nav-item px-3">
               <a className="nav-link" href="/contact">Contact</a>
             </li>
           </ul>
