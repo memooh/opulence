@@ -4,7 +4,7 @@ import "./QuickInfo.css";
 const QuickInfo = () => {
   return (
     <div>
-      <div className="container">
+      <div className="container mt-5">
         <div className="row">
         <div className="col-12 col-md-6 col-lg-4 text-center">
         <h3 className="infoTitle">Project Plan</h3>
