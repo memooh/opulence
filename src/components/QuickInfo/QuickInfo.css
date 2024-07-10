@@ -1,0 +1,37 @@
+.infoTitle {
+    font-size: 1.5rem;
+    font-family: var(--font-serif);
+    color: var(--color-title);
+}
+.infoText {
+    margin-top: 20px;
+    color: var(--color-text);
+    font-size: 1.3rem;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.infoButton {
+    border: none !important;
+    font-size: 1.3rem;
+    background-color: transparent;
+    font-family: var(--font-sans-jost);
+    text-decoration: none;
+    margin-top: 52px;
+    cursor: pointer;
+}
+.infoButton a {
+    text-decoration: none;
+    color: var(--color-text);
+    font-weight: bold;
+    font-size: 1rem;
+}
+.infoButton a:hover{
+    color: var(--color-activetext) !important;
+}
+
+@media (max-width: 767.98px) {
+    .infoButton {
+        margin-top: 0px;
+        margin-bottom: 5%;
+    }
+}
