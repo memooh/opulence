@@ -1,0 +1,34 @@
+.projectsTitle {
+    font-size: 60px;
+    font-family: var(--font-serif);
+}
+.projectsDesc {
+    font-size: 28px;
+}
+
+.project-title {
+    margin-top: 15px;
+    font-size: 25px;
+    font-family: var(--font-serif);
+    text-align: left;
+}
+.project-type {
+    text-align: left;
+}
+.project-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px; 
+    height: 100%;
+}
+.project-card-body {
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    width: 100%; /* Ensure the body takes full width of the card */
+}
+.companies {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
