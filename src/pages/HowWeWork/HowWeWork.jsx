@@ -2,6 +2,9 @@ import "./HowWeWork.css";
 import banner from "/images/pages/Services/banner_services.png";
 
 import OurWorkStyle from "../../components/ourWorkStyle/ourWorkStyle";
+import LineOfWork from "../../components/LineOfWork/LineOfWork";
+
+
 const HowWeWork = () => {
   return (
     <>
@@ -14,6 +17,7 @@ const HowWeWork = () => {
         <h1 className="aboutUs text-center">Services</h1>
       </div>
       <OurWorkStyle />
+      <LineOfWork />
     </>
   );
 };

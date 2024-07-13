@@ -36,7 +36,7 @@ const OurWorkStyle = () => {
 
   return (
     <>
-      <div className="ourWorkStyle">
+      <div className="ourWorkStyle vh-100">
         <div className="container">
           <div className="row">
             {ourWorkData.map((ourWork, index) => (

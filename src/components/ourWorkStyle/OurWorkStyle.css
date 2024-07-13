@@ -2,6 +2,11 @@
     margin-top: 5%;
 }
 
+/* Add top margin to ensure spacing between sections */
+.ourWorkStyle {
+    margin-top: 50px; /* Adjust this value as needed */
+}
+
 .wwoTitle {
     padding-top: 25%;
     font-size: 25px;
