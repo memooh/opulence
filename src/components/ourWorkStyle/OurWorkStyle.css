@@ -1,0 +1,23 @@
+.ourWorkStyle {
+    margin-top: 5%;
+}
+
+.wwoTitle {
+    padding-top: 25%;
+    font-size: 25px;
+    font-family: var(--font-serif);
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+.wwoText {
+    font-size: 22px;
+}
+.wwoLink {
+    padding-top: 20px;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    text-decoration: none !important;
+    color: var(--color-text);
+    font-weight: bold;
+}

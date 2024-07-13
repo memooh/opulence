@@ -9,7 +9,10 @@ import Reviews from './components/Reviews/Reviews'
 import OurProjects from './components/OurProjects/OurProjects'
 import Stats from './components/Stats/Stats'
 import Interno from './components/Interno/Interno'
+
+
 import AboutUs from './pages/AboutUs/AboutUs';
+import HowWeWork from './pages/HowWeWork/HowWeWork';
 
 function App() {
   return (
@@ -27,6 +30,7 @@ function App() {
           </>
         } />
         <Route path="/about" element={<AboutUs />} />
+        <Route path="/services" element={<HowWeWork />} />
       </Routes>
     </Router>
   )
