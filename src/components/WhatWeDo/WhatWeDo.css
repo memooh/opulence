@@ -1,4 +1,114 @@
+.banner {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding-bottom: 20px; /* Add some padding to the bottom */
+
+}
+
+.bannerImg {
+    width: 100%;
+    height: auto;
+}
+
+.aboutUs {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 5rem;
+    font-family: var(--font-serif);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.bunnyWilliams {
+    margin-top: 15%;
+    position: relative;
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-top: 20px; /* Add some padding to the top */
+
+}
+
+.bunnyWilliams::before,
+.bunnyWilliams::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px; 
+    background-color: black; 
+}
+
+.bunnyWilliams::before {
+    left: calc(20% + -20px); 
+}
+
+.bunnyWilliams::after {
+    right: calc(20% + -20px); 
+}
+
+.bunnyWilliamsTitle {
+    font-size: 35px;
+    font-family: var(--font-serif);
+}
+
+.bunnyWilliamsText {
+    font-size: 25px;
+}
+
+.alignRow {
+    margin-top: 180px !important;
+}
+
+.alignRow2 {
+    margin-top: 180px !important;
+    margin-bottom: 180px !important;
+}
+
 .wwdTitle {
     font-size: 50px;
     font-family: var(--font-serif);
+    color: #292F36;
 }
+
+.wwdText {
+    padding-right: 30%;
+}
+
+
+@media (max-width: 992px) {
+
+    .aboutUs {
+        font-size: 2.2rem;
+        margin-top: 5%;
+        color: var(--color-title);
+    }
+
+    .wwdText {
+        padding-right: 15%;
+    }
+    .wwd {
+        background-color: var(--color-background);
+        padding-top: 15px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    .bunnyWilliams {
+
+    }
+}
+
+@media (max-width: 768px) {
+
+    .wwdText {
+        padding-right: 5%;
+    }
+    .bunnyWilliams::before,
+    .bunnyWilliams::after {
+        display: none;
+    }
+}
+

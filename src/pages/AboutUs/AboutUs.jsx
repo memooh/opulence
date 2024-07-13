@@ -1,11 +1,15 @@
 import "./AboutUs.css";
 
 import WhatWeDo from "../../components/WhatWeDo/WhatWeDo";
+import Reviews from "../../components/Reviews/Reviews";
 
 const AboutUs = () => {
-  return <div className="container">
+  return (
+  <div>
     <WhatWeDo />
-  </div>;
+    <Reviews />
+  </div>
+  )
 };
 
 export default AboutUs;
