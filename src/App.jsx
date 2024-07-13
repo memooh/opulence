@@ -1,4 +1,5 @@
 import './App.css'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
@@ -8,20 +9,26 @@ import Reviews from './components/Reviews/Reviews'
 import OurProjects from './components/OurProjects/OurProjects'
 import Stats from './components/Stats/Stats'
 import Interno from './components/Interno/Interno'
+import AboutUs from './pages/AboutUs/AboutUs';
 
 function App() {
-
   return (
-    <>
-    <Header />
-    <Hero />
-    <QuickInfo />
-    <QuickConnectUs />
-    <Reviews />
-    <OurProjects />
-    <Stats />
-    <Interno />
-    </>
+    <Router>
+      <Header />
+      <Routes>
+        <Route path="/" element={
+          <>
+            <Hero />
+            <QuickInfo />
+            <QuickConnectUs />
+            <Reviews />
+            <OurProjects />
+            <Stats />
+          </>
+        } />
+        <Route path="/about" element={<AboutUs />} />
+      </Routes>
+    </Router>
   )
 }
 
