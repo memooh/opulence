@@ -14,6 +14,7 @@ import Interno from './components/Interno/Interno'
 import AboutUs from './pages/AboutUs/AboutUs';
 import HowWeWork from './pages/HowWeWork/HowWeWork';
 import SingleServices from './pages/SingleServices/SingleServices';
+import Pricing from './pages/Pricing/Pricing';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path="/about" element={<AboutUs />} />
         <Route path="/services" element={<HowWeWork />} />
         <Route path="/example_services" element={<SingleServices />} />
+        <Route path="/pricing" element={<Pricing/>} />
       </Routes>
     </Router>
   )

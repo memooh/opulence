@@ -53,6 +53,9 @@
     .video-player video {
         border-radius: 0px !important;
     }
+    .wldImg {
+        display: none !important
+    }
 
     .ssTitle {
         font-size: 35px;

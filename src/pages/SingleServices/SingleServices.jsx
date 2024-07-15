@@ -90,7 +90,7 @@ const SingleServices = () => {
               <img
                 src={WeLoveDesign}
                 alt="We Love Design"
-                className="img-fluid"
+                className="img-fluid wldImg"
               />
             </div>
             <div className="col-lg-6 col-md-12 mt-5 ">
