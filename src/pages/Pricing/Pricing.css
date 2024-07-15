@@ -1,0 +1,30 @@
+.pricingDescription {
+    list-style-type: none; 
+    padding-left: 0; 
+}
+
+.pricingTitle {
+    font-family: var(--font-serif);
+    font-size: 25px;
+}
+
+.pricingPrice {
+    font-size: 85px;
+    color: #CDA274;
+}
+
+.pricingDescription {
+    font-size: 20px;
+    padding-bottom: 10px; 
+}
+
+.pricingDescription li {
+    margin-bottom: 10px; 
+}
+
+
+@media (max-width: 767px) {
+    .pricing-item {
+        margin-bottom: 5% !important; 
+    }
+}
