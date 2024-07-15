@@ -43,7 +43,7 @@ const OurWorkStyle = () => {
               <div className="col-lg-4 col-md-6" key={index}>
                 <h1 className="text-center wwoTitle">{ourWork.name}</h1>
                 <p className="text-center wwoText">{ourWork.desription}</p>
-                <a href="#" className="text-center wwoLink">
+                <a href="/example_services" className="text-center wwoLink">
                   Read More
                 </a>
               </div>
