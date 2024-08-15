@@ -15,6 +15,7 @@ import AboutUs from './pages/AboutUs/AboutUs';
 import HowWeWork from './pages/HowWeWork/HowWeWork';
 import SingleServices from './pages/SingleServices/SingleServices';
 import Pricing from './pages/Pricing/Pricing';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -36,6 +37,8 @@ function App() {
         <Route path="/example_services" element={<SingleServices />} />
         <Route path="/pricing" element={<Pricing/>} />
       </Routes>
+      <Footer />
+
     </Router>
   )
 }
